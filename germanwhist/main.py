@@ -19,6 +19,7 @@
 import os
 import sys
 import importlib.util
+import threading
 from itertools import combinations
 
 from engine import GameLogger, playGame
@@ -27,8 +28,39 @@ from engine import GameLogger, playGame
 # Constants
 # ---------------------------------------------------------------------------
 GAMES_PER_MATCHUP = 100
+MOVE_TIMEOUT_SECONDS = 2.0
 PLAYERS_DIR = os.path.join(os.path.dirname(__file__), "players")
 LOGS_DIR = os.path.join(os.path.dirname(__file__), "logs")
+
+
+# ---------------------------------------------------------------------------
+# Move timeout
+# ---------------------------------------------------------------------------
+def with_move_timeout(next_move, timeout=MOVE_TIMEOUT_SECONDS):
+    """Wrap nextMove so calls exceeding *timeout* seconds raise TimeoutError."""
+
+    def timed_next_move(game_state):
+        box = {}
+
+        def runner():
+            try:
+                box["value"] = next_move(game_state)
+            except BaseException as e:
+                box["error"] = e
+
+        thread = threading.Thread(target=runner, daemon=True)
+        thread.start()
+        thread.join(timeout=timeout)
+
+        if thread.is_alive():
+            raise TimeoutError(
+                f"nextMove exceeded {timeout} second limit"
+            )
+        if "error" in box:
+            raise box["error"]
+        return box["value"]
+
+    return timed_next_move
 
 
 # ---------------------------------------------------------------------------
@@ -39,6 +71,7 @@ def load_players(players_dir):
 
     Returns a dict  {player_name: nextMove_function}.
     Files starting with '_' or named 'example_player.py' are skipped.
+    Each nextMove is wrapped with with_move_timeout.
     """
     players = {}
 
@@ -65,7 +98,7 @@ def load_players(players_dir):
             print(f"[WARNING] Player '{name}' has no callable nextMove – skipped.")
             continue
 
-        players[name] = module.nextMove
+        players[name] = with_move_timeout(module.nextMove)
         print(f"Loaded player: {name}")
 
     return players

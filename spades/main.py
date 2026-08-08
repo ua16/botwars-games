@@ -4,6 +4,8 @@
 import os
 import sys
 import importlib.util
+import multiprocessing
+import random
 import threading
 from itertools import combinations
 
@@ -16,6 +18,8 @@ GAMES_PER_MATCHUP = 100
 MOVE_TIMEOUT_SECONDS = 2.0
 PLAYERS_DIR = os.path.join(os.path.dirname(__file__), "players")
 LOGS_DIR = os.path.join(os.path.dirname(__file__), "logs")
+
+CONCURRENT_WORKERS = os.cpu_count() or 1
 
 
 # ---------------------------------------------------------------------------
@@ -92,29 +96,23 @@ def load_players(players_dir):
 # ---------------------------------------------------------------------------
 # Tournament
 # ---------------------------------------------------------------------------
-def run_tournament():
-    """Run a full round-robin tournament and print the leaderboard."""
+_PLAYERS = {}
 
-    os.makedirs(LOGS_DIR, exist_ok=True)
+def run_matchup(task):
+    """Run one full matchup inside a worker process.
 
-    players = load_players(PLAYERS_DIR)
+    The player functions are read from the module-level _PLAYERS dict, which
+    fork inherits from the parent process (the wrapped closures are not
+    picklable). Returns (idx, nameA, nameB, a_wins, b_wins, draws).
+    """
+    idx, nameA, nameB, log_path = task
 
-    if len(players) < 2:
-        print("Need at least 2 players in the /players folder to run a tournament.")
-        sys.exit(1)
+    try:
+        random.seed()
+        funcA = _PLAYERS[nameA]
+        funcB = _PLAYERS[nameB]
 
-    scores = {name: 0.0 for name in players}
-    matchups = list(combinations(sorted(players.keys()), 2))
-    total_matchups = len(matchups)
-
-    for idx, (nameA, nameB) in enumerate(matchups, start=1):
-        funcA = players[nameA]
-        funcB = players[nameB]
-
-        log_path = os.path.join(LOGS_DIR, f"{nameA}_vs_{nameB}.log")
         logger = GameLogger(log_path)
-
-        print(f"\nMatchup {idx}/{total_matchups}: {nameA} vs {nameB}")
 
         a_wins = 0
         b_wins = 0
@@ -122,6 +120,10 @@ def run_tournament():
 
         for game_num in range(1, GAMES_PER_MATCHUP + 1):
             logger.start_game(game_num)
+            print(
+                f"[{nameA} vs {nameB}] Game {game_num}/{GAMES_PER_MATCHUP} starting",
+                flush=True,
+            )
 
             if game_num % 2 == 1:
                 result = playGame(nameA, funcA, nameB, funcB, logger)
@@ -141,11 +143,60 @@ def run_tournament():
                     draws += 1
 
         logger.flush()
+        return idx, nameA, nameB, a_wins, b_wins, draws
+    except BaseException:
+        return idx, nameA, nameB, None, None, None
 
-        scores[nameA] += a_wins + 0.5 * draws
-        scores[nameB] += b_wins + 0.5 * draws
 
-        print(f"  {nameA} wins: {a_wins}  |  {nameB} wins: {b_wins}  |  Draws: {draws}")
+def run_tournament():
+    """Run a full round-robin tournament and print the leaderboard.
+
+    Matchups are executed concurrently in separate processes (one per
+    matchup) so they run in true parallel. Always uses one worker per CPU
+    core, capped at the number of matchups.
+    """
+
+    os.makedirs(LOGS_DIR, exist_ok=True)
+
+    players = load_players(PLAYERS_DIR)
+
+    if len(players) < 2:
+        print("Need at least 2 players in the /players folder to run a tournament.")
+        sys.exit(1)
+
+    scores = {name: 0.0 for name in players}
+    matchups = list(combinations(sorted(players.keys()), 2))
+    total_matchups = len(matchups)
+
+    tasks = [
+        (
+            idx,
+            nameA,
+            nameB,
+            os.path.join(LOGS_DIR, f"{nameA}_vs_{nameB}.log"),
+        )
+        for idx, (nameA, nameB) in enumerate(matchups, start=1)
+    ]
+
+    for idx, nameA, nameB, _ in tasks:
+        print(f"\nMatchup {idx}/{total_matchups}: {nameA} vs {nameB}")
+
+    workers = max(1, min(CONCURRENT_WORKERS, total_matchups))
+    print(f"\nRunning up to {workers} matchups concurrently ...")
+
+    _PLAYERS.update(players)
+
+    ctx = multiprocessing.get_context("fork")
+    with ctx.Pool(processes=workers) as pool:
+        for idx, nameA, nameB, a_wins, b_wins, draws in pool.imap_unordered(run_matchup, tasks):
+            if a_wins is None:
+                print(f"  Matchup {idx} FAILED: {nameA} vs {nameB}")
+                continue
+
+            scores[nameA] += a_wins + 0.5 * draws
+            scores[nameB] += b_wins + 0.5 * draws
+
+            print(f"  {nameA} wins: {a_wins}  |  {nameB} wins: {b_wins}  |  Draws: {draws}")
 
     print("\n" + "=" * 40)
     print("         FINAL LEADERBOARD")

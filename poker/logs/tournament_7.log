@@ -1,0 +1,2009 @@
+
+============================================================
+Hand 1
+============================================================
+Dealer: calit
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 4C 9D
+  nexora: stack 50000  hole 8D 10D
+  r2_d2: stack 50000  hole 2H 3H
+  rootbotz: stack 50000  hole 5C 2D
+  segfault_society: stack 50000  hole AD 10S
+  teambinary: stack 50000  hole 3C 3S
+  token_titans: stack 50000  hole 5D 6H
+  volt_x: stack 50000  hole 10C 8H
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: call (pot 2)
+  [preflop] token_titans: fold (pot 2)
+  [preflop] volt_x: call (pot 3)
+  flop: QD 8C 5H
+  [flop] calit: check (pot 3)
+  [flop] teambinary: check (pot 3)
+  [flop] volt_x: check (pot 3)
+  turn: QD 8C 5H 9S
+  [turn] calit: check (pot 3)
+  [turn] teambinary: check (pot 3)
+  [turn] volt_x: check (pot 3)
+  river: QD 8C 5H 9S 7H
+  [river] calit: check (pot 3)
+  [river] teambinary: check (pot 3)
+  [river] volt_x: check (pot 3)
+  Showdown:
+    calit: 4C 9D
+    teambinary: 3C 3S
+    volt_x: 10C 8H
+  Pot 3 -> calit
+  End stacks: calit=50002, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=49999, token_titans=50000, volt_x=49999
+
+============================================================
+Hand 2
+============================================================
+Dealer: nexora
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 5H 3S
+  nexora: stack 50000  hole 2C 5S
+  r2_d2: stack 50000  hole 6C 7C
+  rootbotz: stack 50000  hole JC 7H
+  segfault_society: stack 50000  hole 5D 8D
+  teambinary: stack 50000  hole 8H QS
+  token_titans: stack 50000  hole QH AH
+  volt_x: stack 50000  hole JD JS
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: bet 4250 (pot 4250)
+  [preflop] volt_x: raise to 8500 (pot 12750)
+  [preflop] calit: fold (pot 12750)
+  [preflop] nexora: fold (pot 12750)
+  [preflop] r2_d2: fold (pot 12750)
+  [preflop] rootbotz: fold (pot 12750)
+  [preflop] segfault_society: fold (pot 12750)
+  [preflop] teambinary: fold (pot 12750)
+  [preflop] token_titans: raise to 16150 (pot 24650)
+  [preflop] volt_x: raise to 23800 (pot 39950)
+  [preflop] token_titans: raise to 31450 (pot 55250)
+  ERROR (volt_x): illegal action raise to 26200
+  [preflop] volt_x: fold (pot 55250)
+  Uncontested pot 55250 -> token_titans
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=73800, volt_x=26200
+
+============================================================
+Hand 3
+============================================================
+Dealer: r2_d2
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 9D JD
+  nexora: stack 50000  hole AD KH
+  r2_d2: stack 50000  hole 6H 8H
+  rootbotz: stack 50000  hole JC 3H
+  segfault_society: stack 50000  hole 4D 2S
+  teambinary: stack 50000  hole 8C 3D
+  token_titans: stack 50000  hole 5D QS
+  volt_x: stack 50000  hole 5S 7S
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: 9H QD QC
+  [flop] token_titans: bet 8 (pot 14)
+  [flop] volt_x: fold (pot 14)
+  [flop] calit: call (pot 22)
+  turn: 9H QD QC 10H
+  [turn] token_titans: bet 30 (pot 52)
+  [turn] calit: call (pot 82)
+  river: 9H QD QC 10H 7D
+  [river] token_titans: bet 114 (pot 196)
+  [river] calit: call (pot 310)
+  Showdown:
+    calit: 9D JD
+    token_titans: 5D QS
+  Pot 6 -> token_titans
+  Pot 304 -> token_titans
+  End stacks: calit=49846, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50156, volt_x=49998
+
+============================================================
+Hand 4
+============================================================
+Dealer: rootbotz
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 4C JH
+  nexora: stack 50000  hole 5H AH
+  r2_d2: stack 50000  hole KH 7S
+  rootbotz: stack 50000  hole 7C JD
+  segfault_society: stack 50000  hole AC 8S
+  teambinary: stack 50000  hole 3C 2H
+  token_titans: stack 50000  hole 3D 4D
+  volt_x: stack 50000  hole 10H 3S
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: 5C 9D JC
+  [flop] token_titans: bet 13 (pot 19)
+  [flop] volt_x: fold (pot 19)
+  [flop] calit: call (pot 32)
+  turn: 5C 9D JC 6C
+  [turn] token_titans: bet 70 (pot 102)
+  [turn] calit: call (pot 172)
+  river: 5C 9D JC 6C 2C
+  [river] token_titans: bet 60 (pot 232)
+  [river] calit: call (pot 292)
+  Showdown:
+    calit: 4C JH
+    token_titans: 3D 4D
+  Pot 6 -> calit
+  Pot 286 -> calit
+  End stacks: calit=50147, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=49855, volt_x=49998
+
+============================================================
+Hand 5
+============================================================
+Dealer: segfault_society
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 3C JD
+  nexora: stack 50000  hole 9D 4S
+  r2_d2: stack 50000  hole 5D 7D
+  rootbotz: stack 50000  hole AH AS
+  segfault_society: stack 50000  hole 4C 9S
+  teambinary: stack 50000  hole 8C 2H
+  token_titans: stack 50000  hole 8D 3S
+  volt_x: stack 50000  hole 5C 4D
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: call (pot 2)
+  [preflop] segfault_society: fold (pot 2)
+  [preflop] teambinary: fold (pot 2)
+  [preflop] token_titans: fold (pot 2)
+  [preflop] volt_x: call (pot 3)
+  flop: 4H KD KS
+  [flop] volt_x: check (pot 3)
+  [flop] calit: check (pot 3)
+  [flop] rootbotz: bet 3 (pot 6)
+  [flop] volt_x: call (pot 9)
+  [flop] calit: fold (pot 9)
+  turn: 4H KD KS 6S
+  [turn] volt_x: check (pot 9)
+  [turn] rootbotz: bet 11 (pot 20)
+  [turn] volt_x: call (pot 31)
+  river: 4H KD KS 6S 2C
+  [river] volt_x: bet 1000 (pot 1031)
+  [river] rootbotz: raise to 49985 (pot 51016)
+  [river] volt_x: call (pot 100001)
+  Showdown:
+    rootbotz: AH AS
+    volt_x: 5C 4D
+  Pot 3 -> rootbotz
+  Pot 99998 -> rootbotz
+  End stacks: calit=49999, nexora=50000, r2_d2=50000, rootbotz=100001, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=0
+
+============================================================
+Hand 6
+============================================================
+Dealer: teambinary
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 3H 9H
+  nexora: stack 50000  hole 10H 7S
+  r2_d2: stack 50000  hole 4D AD
+  rootbotz: stack 50000  hole 8D 7H
+  segfault_society: stack 50000  hole QC 2S
+  teambinary: stack 50000  hole 3C JH
+  token_titans: stack 50000  hole KH 5S
+  volt_x: stack 50000  hole 7D 2H
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: 2D 6S 6D
+  [flop] token_titans: bet 4 (pot 10)
+  [flop] volt_x: call (pot 14)
+  [flop] calit: call (pot 18)
+  turn: 2D 6S 6D 8S
+  [turn] token_titans: check (pot 18)
+  [turn] volt_x: check (pot 18)
+  [turn] calit: check (pot 18)
+  river: 2D 6S 6D 8S 9C
+  [river] token_titans: check (pot 18)
+  [river] volt_x: check (pot 18)
+  [river] calit: check (pot 18)
+  Showdown:
+    calit: 3H 9H
+    token_titans: KH 5S
+    volt_x: 7D 2H
+  Pot 18 -> calit
+  End stacks: calit=50012, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=49994, volt_x=49994
+
+============================================================
+Hand 7
+============================================================
+Dealer: token_titans
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 6S 9S
+  nexora: stack 50000  hole AD 8S
+  r2_d2: stack 50000  hole 7C 10S
+  rootbotz: stack 50000  hole 4H 6H
+  segfault_society: stack 50000  hole 3C QD
+  teambinary: stack 50000  hole 8C KS
+  token_titans: stack 50000  hole 9D 7H
+  volt_x: stack 50000  hole JC 9H
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: 9C KH 3S
+  [flop] token_titans: bet 13 (pot 19)
+  [flop] volt_x: call (pot 32)
+  [flop] calit: call (pot 45)
+  turn: 9C KH 3S 4D
+  [turn] token_titans: bet 9 (pot 54)
+  [turn] volt_x: call (pot 63)
+  [turn] calit: call (pot 72)
+  river: 9C KH 3S 4D KD
+  [river] token_titans: bet 25 (pot 97)
+  [river] volt_x: raise to 91 (pot 188)
+  [river] calit: call (pot 279)
+  [river] token_titans: raise to 157 (pot 411)
+  [river] volt_x: raise to 357 (pot 677)
+  [river] calit: call (pot 943)
+  [river] token_titans: raise to 557 (pot 1343)
+  [river] volt_x: raise to 1157 (pot 2143)
+  [river] calit: call (pot 2943)
+  [river] token_titans: raise to 1757 (pot 4143)
+  [river] volt_x: raise to 3557 (pot 6543)
+  [river] calit: call (pot 8943)
+  [river] token_titans: raise to 5357 (pot 12543)
+  [river] volt_x: raise to 10757 (pot 19743)
+  [river] calit: call (pot 26943)
+  [river] token_titans: raise to 16157 (pot 37743)
+  [river] volt_x: raise to 32357 (pot 59343)
+  [river] calit: call (pot 80943)
+  [river] token_titans: call (pot 97143)
+  Showdown:
+    calit: 6S 9S
+    token_titans: 9D 7H
+    volt_x: JC 9H
+  Pot 97143 -> volt_x
+  End stacks: calit=17619, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=17619, volt_x=114762
+
+============================================================
+Hand 8
+============================================================
+Dealer: volt_x
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole KH 2S
+  nexora: stack 50000  hole 2C 6S
+  r2_d2: stack 50000  hole 8D 8H
+  rootbotz: stack 50000  hole 7C 10H
+  segfault_society: stack 50000  hole JD 9H
+  teambinary: stack 50000  hole 10D AD
+  token_titans: stack 50000  hole 10C 9S
+  volt_x: stack 50000  hole 5C AH
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: call (pot 2)
+  [preflop] token_titans: raise to 2 (pot 4)
+  [preflop] volt_x: fold (pot 4)
+  [preflop] calit: call (pot 5)
+  [preflop] teambinary: call (pot 6)
+  flop: 5S 7D AC
+  [flop] calit: check (pot 6)
+  [flop] teambinary: check (pot 6)
+  [flop] token_titans: bet 13 (pot 19)
+  [flop] calit: fold (pot 19)
+  [flop] teambinary: raise to 26 (pot 45)
+  [flop] token_titans: raise to 84 (pot 116)
+  [flop] teambinary: raise to 142 (pot 232)
+  [flop] token_titans: raise to 432 (pot 580)
+  [flop] teambinary: raise to 722 (pot 1160)
+  [flop] token_titans: raise to 2897 (pot 3625)
+  [flop] teambinary: raise to 5072 (pot 7975)
+  [flop] token_titans: raise to 15222 (pot 20300)
+  [flop] teambinary: raise to 25372 (pot 40600)
+  [flop] token_titans: raise to 35522 (pot 60900)
+  ERROR (teambinary): illegal action raise to 24626
+  [flop] teambinary: fold (pot 60900)
+  Uncontested pot 60900 -> token_titans
+  End stacks: calit=49998, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=24626, token_titans=75376, volt_x=50000
+
+============================================================
+Hand 9
+============================================================
+Dealer: calit
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 8D 3S
+  nexora: stack 50000  hole 3H AH
+  r2_d2: stack 50000  hole 6C AC
+  rootbotz: stack 50000  hole QC 10D
+  segfault_society: stack 50000  hole 5C JS
+  teambinary: stack 50000  hole 10H 7S
+  token_titans: stack 50000  hole 2D 2H
+  volt_x: stack 50000  hole 7C QH
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: QS KS 6D
+  [flop] calit: check (pot 6)
+  [flop] token_titans: check (pot 6)
+  [flop] volt_x: check (pot 6)
+  turn: QS KS 6D 7D
+  [turn] calit: check (pot 6)
+  [turn] token_titans: check (pot 6)
+  [turn] volt_x: bet 1000 (pot 1006)
+  [turn] calit: fold (pot 1006)
+  [turn] token_titans: raise to 2404 (pot 3410)
+  [turn] volt_x: raise to 3808 (pot 6218)
+  [turn] token_titans: raise to 15241 (pot 19055)
+  [turn] volt_x: raise to 26674 (pot 41921)
+  [turn] token_titans: call (pot 53354)
+  river: QS KS 6D 7D 8S
+  [river] token_titans: check (pot 53354)
+  [river] volt_x: bet 23324 (pot 76678)
+  [river] token_titans: fold (pot 76678)
+  Uncontested pot 76678 -> volt_x
+  End stacks: calit=49998, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=23324, volt_x=76678
+
+============================================================
+Hand 10
+============================================================
+Dealer: nexora
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole QH 5S
+  nexora: stack 50000  hole KC 9H
+  r2_d2: stack 50000  hole AC 4H
+  rootbotz: stack 50000  hole 10C 2S
+  segfault_society: stack 50000  hole 8C JH
+  teambinary: stack 50000  hole QD 4S
+  token_titans: stack 50000  hole 2D QS
+  volt_x: stack 50000  hole KH AS
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  ERROR (volt_x): illegal action raise to 1000
+  [preflop] volt_x: fold (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] calit: call (pot 4)
+  flop: 5H 8D KD
+  [flop] token_titans: bet 8 (pot 12)
+  [flop] calit: call (pot 20)
+  turn: 5H 8D KD 10H
+  [turn] token_titans: bet 44 (pot 64)
+  [turn] calit: call (pot 108)
+  river: 5H 8D KD 10H 4C
+  [river] token_titans: bet 237 (pot 345)
+  [river] calit: call (pot 582)
+  Showdown:
+    calit: QH 5S
+    token_titans: 2D QS
+  Pot 582 -> calit
+  End stacks: calit=50291, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=49709, volt_x=50000
+
+============================================================
+Hand 11
+============================================================
+Dealer: r2_d2
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 4D QS
+  nexora: stack 50000  hole 9C 8D
+  r2_d2: stack 50000  hole 7H 9S
+  rootbotz: stack 50000  hole 6S JS
+  segfault_society: stack 50000  hole 6C JC
+  teambinary: stack 50000  hole 4C 2D
+  token_titans: stack 50000  hole KC 3S
+  volt_x: stack 50000  hole QD 10H
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: QC 5S 5C
+  [flop] token_titans: check (pot 6)
+  [flop] volt_x: bet 1000 (pot 1006)
+  [flop] calit: call (pot 2006)
+  [flop] token_titans: raise to 2000 (pot 4006)
+  [flop] volt_x: call (pot 5006)
+  [flop] calit: call (pot 6006)
+  turn: QC 5S 5C 7C
+  [turn] token_titans: check (pot 6006)
+  [turn] volt_x: check (pot 6006)
+  [turn] calit: check (pot 6006)
+  river: QC 5S 5C 7C 6D
+  [river] token_titans: check (pot 6006)
+  [river] volt_x: check (pot 6006)
+  [river] calit: check (pot 6006)
+  Showdown:
+    calit: 4D QS
+    token_titans: KC 3S
+    volt_x: QD 10H
+  Pot 6006 -> volt_x
+  End stacks: calit=47998, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=47998, volt_x=54004
+
+============================================================
+Hand 12
+============================================================
+Dealer: rootbotz
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 3D 10S
+  nexora: stack 50000  hole JC 9D
+  r2_d2: stack 50000  hole 4C 6S
+  rootbotz: stack 50000  hole 5D 8H
+  segfault_society: stack 50000  hole 9H 7S
+  teambinary: stack 50000  hole 9S KS
+  token_titans: stack 50000  hole 6C 5S
+  volt_x: stack 50000  hole 5C 10D
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: call (pot 2)
+  [preflop] token_titans: fold (pot 2)
+  [preflop] volt_x: call (pot 3)
+  flop: 3C AD 8S
+  [flop] teambinary: check (pot 3)
+  [flop] volt_x: check (pot 3)
+  [flop] calit: check (pot 3)
+  turn: 3C AD 8S 10H
+  [turn] teambinary: check (pot 3)
+  [turn] volt_x: check (pot 3)
+  [turn] calit: bet 49999 (pot 50002)
+  [turn] teambinary: fold (pot 50002)
+  [turn] volt_x: call (pot 100001)
+  river: 3C AD 8S 10H 2S
+  Showdown:
+    calit: 3D 10S
+    volt_x: 5C 10D
+  Pot 3 -> calit
+  Pot 99998 -> calit
+  End stacks: calit=100001, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=49999, token_titans=50000, volt_x=0
+
+============================================================
+Hand 13
+============================================================
+Dealer: segfault_society
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole JC 7H
+  nexora: stack 50000  hole 10D 4H
+  r2_d2: stack 50000  hole 7C 3D
+  rootbotz: stack 50000  hole KD 3H
+  segfault_society: stack 50000  hole 5D JH
+  teambinary: stack 50000  hole KH 6S
+  token_titans: stack 50000  hole 4C 8D
+  volt_x: stack 50000  hole 10C 9H
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: bet 1 (pot 1)
+  [preflop] nexora: fold (pot 1)
+  [preflop] r2_d2: fold (pot 1)
+  [preflop] rootbotz: fold (pot 1)
+  [preflop] segfault_society: fold (pot 1)
+  [preflop] teambinary: fold (pot 1)
+  [preflop] token_titans: raise to 2 (pot 3)
+  [preflop] volt_x: call (pot 5)
+  [preflop] calit: call (pot 6)
+  flop: 3C 10S 8C
+  [flop] token_titans: bet 13 (pot 19)
+  [flop] volt_x: call (pot 32)
+  [flop] calit: call (pot 45)
+  turn: 3C 10S 8C 5H
+  [turn] token_titans: bet 15 (pot 60)
+  [turn] volt_x: call (pot 75)
+  [turn] calit: call (pot 90)
+  river: 3C 10S 8C 5H AC
+  [river] token_titans: check (pot 90)
+  [river] volt_x: check (pot 90)
+  [river] calit: check (pot 90)
+  Showdown:
+    calit: JC 7H
+    token_titans: 4C 8D
+    volt_x: 10C 9H
+  Pot 90 -> volt_x
+  End stacks: calit=49970, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=49970, volt_x=50060
+
+============================================================
+Hand 14
+============================================================
+Dealer: teambinary
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 2D AS
+  nexora: stack 50000  hole 7D KD
+  r2_d2: stack 50000  hole 9C 7S
+  rootbotz: stack 50000  hole 5C KH
+  segfault_society: stack 50000  hole 3C QS
+  teambinary: stack 50000  hole 10C 3S
+  token_titans: stack 50000  hole 6H JS
+  volt_x: stack 50000  hole 4C 10H
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  flop: AH JH 2S
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  turn: AH JH 2S 4S
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  river: AH JH 2S 4S 9D
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  Showdown:
+    calit: 2D AS
+    nexora: 7D KD
+    r2_d2: 9C 7S
+    rootbotz: 5C KH
+    segfault_society: 3C QS
+    teambinary: 10C 3S
+    token_titans: 6H JS
+    volt_x: 4C 10H
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 15
+============================================================
+Dealer: token_titans
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole QH 6S
+  nexora: stack 50000  hole 8D 3S
+  r2_d2: stack 50000  hole 6C 5H
+  rootbotz: stack 50000  hole 10C 8S
+  segfault_society: stack 50000  hole AD 10H
+  teambinary: stack 50000  hole 7C 9H
+  token_titans: stack 50000  hole 3H AH
+  volt_x: stack 50000  hole 2C AC
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: bet 4000 (pot 4000)
+  [preflop] teambinary: fold (pot 4000)
+  [preflop] token_titans: raise to 8000 (pot 12000)
+  [preflop] volt_x: fold (pot 12000)
+  [preflop] calit: fold (pot 12000)
+  [preflop] nexora: fold (pot 12000)
+  [preflop] r2_d2: fold (pot 12000)
+  [preflop] rootbotz: fold (pot 12000)
+  [preflop] segfault_society: call (pot 16000)
+  flop: 7S JD 4C
+  [flop] token_titans: check (pot 16000)
+  [flop] segfault_society: bet 4000 (pot 20000)
+  [flop] token_titans: raise to 8000 (pot 28000)
+  [flop] segfault_society: call (pot 32000)
+  turn: 7S JD 4C KS
+  [turn] token_titans: check (pot 32000)
+  [turn] segfault_society: bet 4000 (pot 36000)
+  [turn] token_titans: raise to 8000 (pot 44000)
+  [turn] segfault_society: call (pot 48000)
+  river: 7S JD 4C KS 2H
+  [river] token_titans: check (pot 48000)
+  [river] segfault_society: bet 4000 (pot 52000)
+  [river] token_titans: raise to 8000 (pot 60000)
+  [river] segfault_society: call (pot 64000)
+  Showdown:
+    segfault_society: AD 10H
+    token_titans: 3H AH
+  Pot 64000 -> segfault_society
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=82000, teambinary=50000, token_titans=18000, volt_x=50000
+
+============================================================
+Hand 16
+============================================================
+Dealer: volt_x
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 3C 7C
+  nexora: stack 50000  hole 8C 2H
+  r2_d2: stack 50000  hole 6H 6S
+  rootbotz: stack 50000  hole 4D KH
+  segfault_society: stack 50000  hole JC 5H
+  teambinary: stack 50000  hole 7H AH
+  token_titans: stack 50000  hole 9C KC
+  volt_x: stack 50000  hole 6C 10H
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  flop: QH 5S 7D
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: bet 4000 (pot 4000)
+  [flop] teambinary: fold (pot 4000)
+  [flop] token_titans: raise to 9600 (pot 13600)
+  [flop] volt_x: fold (pot 13600)
+  [flop] calit: fold (pot 13600)
+  [flop] nexora: fold (pot 13600)
+  [flop] r2_d2: fold (pot 13600)
+  [flop] rootbotz: fold (pot 13600)
+  [flop] segfault_society: call (pot 19200)
+  turn: QH 5S 7D QD
+  [turn] segfault_society: bet 4000 (pot 23200)
+  [turn] token_titans: raise to 8000 (pot 31200)
+  [turn] segfault_society: call (pot 35200)
+  river: QH 5S 7D QD KS
+  [river] segfault_society: bet 4000 (pot 39200)
+  [river] token_titans: raise to 8000 (pot 47200)
+  [river] segfault_society: call (pot 51200)
+  Showdown:
+    segfault_society: JC 5H
+    token_titans: 9C KC
+  Pot 51200 -> token_titans
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=24400, teambinary=50000, token_titans=75600, volt_x=50000
+
+============================================================
+Hand 17
+============================================================
+Dealer: calit
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole AD 10S
+  nexora: stack 50000  hole 8C JH
+  r2_d2: stack 50000  hole JD 5S
+  rootbotz: stack 50000  hole 3H 8H
+  segfault_society: stack 50000  hole 9C 7H
+  teambinary: stack 50000  hole 4C 9S
+  token_titans: stack 50000  hole 3D 6D
+  volt_x: stack 50000  hole 8D QH
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  flop: JC 6S QS
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  turn: JC 6S QS 10C
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  river: JC 6S QS 10C AS
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  Showdown:
+    calit: AD 10S
+    nexora: 8C JH
+    r2_d2: JD 5S
+    rootbotz: 3H 8H
+    segfault_society: 9C 7H
+    teambinary: 4C 9S
+    token_titans: 3D 6D
+    volt_x: 8D QH
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 18
+============================================================
+Dealer: nexora
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole AC 4S
+  nexora: stack 50000  hole 4H AS
+  r2_d2: stack 50000  hole 5D 10D
+  rootbotz: stack 50000  hole 4C 9H
+  segfault_society: stack 50000  hole 9C 2D
+  teambinary: stack 50000  hole 5H 8H
+  token_titans: stack 50000  hole QC 9D
+  volt_x: stack 50000  hole AH 8S
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  flop: 7H 7D JD
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  turn: 7H 7D JD JS
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  river: 7H 7D JD JS 2C
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  Showdown:
+    calit: AC 4S
+    nexora: 4H AS
+    r2_d2: 5D 10D
+    rootbotz: 4C 9H
+    segfault_society: 9C 2D
+    teambinary: 5H 8H
+    token_titans: QC 9D
+    volt_x: AH 8S
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 19
+============================================================
+Dealer: r2_d2
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole AC 7D
+  nexora: stack 50000  hole 9S KS
+  r2_d2: stack 50000  hole 8H 7S
+  rootbotz: stack 50000  hole 2D JD
+  segfault_society: stack 50000  hole 2C 4D
+  teambinary: stack 50000  hole 10H 4S
+  token_titans: stack 50000  hole 7C 4H
+  volt_x: stack 50000  hole JC 6H
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  flop: 10D QH 8S
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  turn: 10D QH 8S 9C
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  river: 10D QH 8S 9C 9H
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  Showdown:
+    calit: AC 7D
+    nexora: 9S KS
+    r2_d2: 8H 7S
+    rootbotz: 2D JD
+    segfault_society: 2C 4D
+    teambinary: 10H 4S
+    token_titans: 7C 4H
+    volt_x: JC 6H
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 20
+============================================================
+Dealer: rootbotz
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 2H 4S
+  nexora: stack 50000  hole 2D KH
+  r2_d2: stack 50000  hole 8D AS
+  rootbotz: stack 50000  hole 8C KS
+  segfault_society: stack 50000  hole KC JS
+  teambinary: stack 50000  hole 10C 5H
+  token_titans: stack 50000  hole 4C 6C
+  volt_x: stack 50000  hole 8H 9S
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: bet 4000 (pot 4000)
+  [preflop] teambinary: fold (pot 4000)
+  [preflop] token_titans: fold (pot 4000)
+  [preflop] volt_x: fold (pot 4000)
+  [preflop] calit: fold (pot 4000)
+  [preflop] nexora: fold (pot 4000)
+  [preflop] r2_d2: fold (pot 4000)
+  [preflop] rootbotz: call (pot 8000)
+  flop: 5S 9D AD
+  [flop] rootbotz: bet 3506 (pot 11506)
+  [flop] segfault_society: call (pot 15012)
+  turn: 5S 9D AD 7S
+  [turn] rootbotz: bet 6211 (pot 21223)
+  [turn] segfault_society: call (pot 27434)
+  river: 5S 9D AD 7S 4H
+  [river] rootbotz: check (pot 27434)
+  [river] segfault_society: bet 1 (pot 27435)
+  [river] rootbotz: raise to 25658 (pot 53093)
+  [river] segfault_society: fold (pot 53093)
+  Uncontested pot 53093 -> rootbotz
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=63718, segfault_society=36282, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 21
+============================================================
+Dealer: segfault_society
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole KC 4S
+  nexora: stack 50000  hole 4H 9H
+  r2_d2: stack 50000  hole 8C JD
+  rootbotz: stack 50000  hole 7D 7S
+  segfault_society: stack 50000  hole JC 8S
+  teambinary: stack 50000  hole 3D KH
+  token_titans: stack 50000  hole 10C KS
+  volt_x: stack 50000  hole 5C AD
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  flop: 4D 3H AS
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  turn: 4D 3H AS QD
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  river: 4D 3H AS QD 5D
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  Showdown:
+    calit: KC 4S
+    nexora: 4H 9H
+    r2_d2: 8C JD
+    rootbotz: 7D 7S
+    segfault_society: JC 8S
+    teambinary: 3D KH
+    token_titans: 10C KS
+    volt_x: 5C AD
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 22
+============================================================
+Dealer: teambinary
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole KH AS
+  nexora: stack 50000  hole 4D 6S
+  r2_d2: stack 50000  hole 3D 8D
+  rootbotz: stack 50000  hole 6D 10H
+  segfault_society: stack 50000  hole 2D KS
+  teambinary: stack 50000  hole 5C 10D
+  token_titans: stack 50000  hole 2C 3H
+  volt_x: stack 50000  hole 7D 9D
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  flop: QS 7C 6C
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  turn: QS 7C 6C 6H
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  river: QS 7C 6C 6H AC
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  Showdown:
+    calit: KH AS
+    nexora: 4D 6S
+    r2_d2: 3D 8D
+    rootbotz: 6D 10H
+    segfault_society: 2D KS
+    teambinary: 5C 10D
+    token_titans: 2C 3H
+    volt_x: 7D 9D
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 23
+============================================================
+Dealer: token_titans
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 6H 8S
+  nexora: stack 50000  hole JC JD
+  r2_d2: stack 50000  hole 6C 6D
+  rootbotz: stack 50000  hole 3H AH
+  segfault_society: stack 50000  hole 6S JS
+  teambinary: stack 50000  hole KH 2S
+  token_titans: stack 50000  hole 4C 4H
+  volt_x: stack 50000  hole 3C 7D
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  flop: 9D 10D QD
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  turn: 9D 10D QD 5C
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  river: 9D 10D QD 5C KD
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: bet 1281 (pot 1281)
+  [river] r2_d2: fold (pot 1281)
+  [river] rootbotz: fold (pot 1281)
+  [river] segfault_society: fold (pot 1281)
+  [river] teambinary: fold (pot 1281)
+  [river] token_titans: fold (pot 1281)
+  [river] volt_x: raise to 2562 (pot 3843)
+  [river] calit: fold (pot 3843)
+  [river] nexora: raise to 4870 (pot 7432)
+  [river] volt_x: raise to 7305 (pot 12175)
+  [river] nexora: raise to 18587 (pot 25892)
+  [river] volt_x: raise to 29869 (pot 48456)
+  [river] nexora: raise to 50000 (pot 79869)
+  [river] volt_x: call (pot 100000)
+  Showdown:
+    nexora: JC JD
+    volt_x: 3C 7D
+  Pot 100000 -> nexora
+  End stacks: calit=50000, nexora=100000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=0
+
+============================================================
+Hand 24
+============================================================
+Dealer: volt_x
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 8C 4D
+  nexora: stack 50000  hole 9D 9H
+  r2_d2: stack 50000  hole 7C JC
+  rootbotz: stack 50000  hole 5H 7H
+  segfault_society: stack 50000  hole JH AH
+  teambinary: stack 50000  hole QD 8S
+  token_titans: stack 50000  hole 3H 10S
+  volt_x: stack 50000  hole AD KS
+  ERROR (volt_x): illegal action raise to 1000
+  [preflop] volt_x: fold (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: bet 4000 (pot 4000)
+  [preflop] teambinary: fold (pot 4000)
+  [preflop] token_titans: fold (pot 4000)
+  [preflop] calit: fold (pot 4000)
+  [preflop] nexora: fold (pot 4000)
+  [preflop] r2_d2: fold (pot 4000)
+  [preflop] rootbotz: fold (pot 4000)
+  Uncontested pot 4000 -> segfault_society
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 25
+============================================================
+Dealer: calit
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 6H 6S
+  nexora: stack 50000  hole 5C 8H
+  r2_d2: stack 50000  hole 4D 9D
+  rootbotz: stack 50000  hole KD 2S
+  segfault_society: stack 50000  hole 7D 9S
+  teambinary: stack 50000  hole 8C 3S
+  token_titans: stack 50000  hole 8D KH
+  volt_x: stack 50000  hole 2D QS
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  flop: 10D QC 9H
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: bet 4000 (pot 4000)
+  [flop] teambinary: fold (pot 4000)
+  [flop] token_titans: fold (pot 4000)
+  [flop] volt_x: fold (pot 4000)
+  [flop] calit: fold (pot 4000)
+  [flop] nexora: fold (pot 4000)
+  [flop] r2_d2: fold (pot 4000)
+  [flop] rootbotz: fold (pot 4000)
+  Uncontested pot 4000 -> segfault_society
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 26
+============================================================
+Dealer: nexora
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 7D 8H
+  nexora: stack 50000  hole QD 7S
+  r2_d2: stack 50000  hole 3C 8D
+  rootbotz: stack 50000  hole 2D KH
+  segfault_society: stack 50000  hole 9D 10D
+  teambinary: stack 50000  hole AD AS
+  token_titans: stack 50000  hole 4C QC
+  volt_x: stack 50000  hole 9H 10H
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  flop: 9C 2C JD
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: bet 4000 (pot 4000)
+  [flop] teambinary: fold (pot 4000)
+  [flop] token_titans: raise to 8000 (pot 12000)
+  [flop] volt_x: fold (pot 12000)
+  [flop] calit: fold (pot 12000)
+  [flop] nexora: fold (pot 12000)
+  [flop] r2_d2: fold (pot 12000)
+  [flop] rootbotz: fold (pot 12000)
+  [flop] segfault_society: call (pot 16000)
+  turn: 9C 2C JD 4H
+  [turn] segfault_society: bet 4000 (pot 20000)
+  [turn] token_titans: raise to 8000 (pot 28000)
+  [turn] segfault_society: call (pot 32000)
+  river: 9C 2C JD 4H 6C
+  [river] segfault_society: bet 4000 (pot 36000)
+  [river] token_titans: raise to 22000 (pot 58000)
+  [river] segfault_society: call (pot 76000)
+  Showdown:
+    segfault_society: 9D 10D
+    token_titans: 4C QC
+  Pot 76000 -> token_titans
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=12000, teambinary=50000, token_titans=88000, volt_x=50000
+
+============================================================
+Hand 27
+============================================================
+Dealer: r2_d2
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 5C 4D
+  nexora: stack 50000  hole 2H 9S
+  r2_d2: stack 50000  hole 10D 3H
+  rootbotz: stack 50000  hole 7H 9H
+  segfault_society: stack 50000  hole 3D 6D
+  teambinary: stack 50000  hole QD 5H
+  token_titans: stack 50000  hole 9C 3S
+  volt_x: stack 50000  hole 7C 10C
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  flop: 5D 4H 6H
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: bet 4000 (pot 4000)
+  [flop] teambinary: fold (pot 4000)
+  [flop] token_titans: fold (pot 4000)
+  [flop] volt_x: fold (pot 4000)
+  [flop] calit: fold (pot 4000)
+  [flop] nexora: fold (pot 4000)
+  [flop] r2_d2: fold (pot 4000)
+  [flop] rootbotz: raise to 10662 (pot 14662)
+  [flop] segfault_society: call (pot 21324)
+  turn: 5D 4H 6H 4C
+  [turn] rootbotz: check (pot 21324)
+  [turn] segfault_society: check (pot 21324)
+  river: 5D 4H 6H 4C 8C
+  [river] rootbotz: bet 28787 (pot 50111)
+  [river] segfault_society: fold (pot 50111)
+  Uncontested pot 50111 -> rootbotz
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=60662, segfault_society=39338, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 28
+============================================================
+Dealer: rootbotz
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 7D 6H
+  nexora: stack 50000  hole 3D QD
+  r2_d2: stack 50000  hole 8C 4D
+  rootbotz: stack 50000  hole 8D 4S
+  segfault_society: stack 50000  hole 6C JS
+  teambinary: stack 50000  hole QH 6S
+  token_titans: stack 50000  hole 4C JD
+  volt_x: stack 50000  hole AD 10S
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  flop: 10D QS 5C
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  turn: 10D QS 5C 5S
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  river: 10D QS 5C 5S 2H
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  Showdown:
+    calit: 7D 6H
+    nexora: 3D QD
+    r2_d2: 8C 4D
+    rootbotz: 8D 4S
+    segfault_society: 6C JS
+    teambinary: QH 6S
+    token_titans: 4C JD
+    volt_x: AD 10S
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 29
+============================================================
+Dealer: segfault_society
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 8H 6S
+  nexora: stack 50000  hole 6D JS
+  r2_d2: stack 50000  hole 2H 4S
+  rootbotz: stack 50000  hole 10D 2S
+  segfault_society: stack 50000  hole 4C JH
+  teambinary: stack 50000  hole JD 8S
+  token_titans: stack 50000  hole 10H AS
+  volt_x: stack 50000  hole 10C 5S
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  flop: 9H 5D KD
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  turn: 9H 5D KD 8C
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  river: 9H 5D KD 8C 2C
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  Showdown:
+    calit: 8H 6S
+    nexora: 6D JS
+    r2_d2: 2H 4S
+    rootbotz: 10D 2S
+    segfault_society: 4C JH
+    teambinary: JD 8S
+    token_titans: 10H AS
+    volt_x: 10C 5S
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 30
+============================================================
+Dealer: teambinary
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 8H 3S
+  nexora: stack 50000  hole 7H 9S
+  r2_d2: stack 50000  hole AH JS
+  rootbotz: stack 50000  hole 3C 8D
+  segfault_society: stack 50000  hole 6D KH
+  teambinary: stack 50000  hole QH 4S
+  token_titans: stack 50000  hole 10D 6S
+  volt_x: stack 50000  hole 2C 4D
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  flop: AD 6C 7C
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: bet 4000 (pot 4000)
+  [flop] teambinary: fold (pot 4000)
+  [flop] token_titans: raise to 8000 (pot 12000)
+  [flop] volt_x: fold (pot 12000)
+  [flop] calit: fold (pot 12000)
+  [flop] nexora: fold (pot 12000)
+  [flop] r2_d2: call (pot 20000)
+  [flop] rootbotz: fold (pot 20000)
+  [flop] segfault_society: call (pot 24000)
+  turn: AD 6C 7C 3D
+  [turn] token_titans: check (pot 24000)
+  [turn] r2_d2: bet 12000 (pot 36000)
+  [turn] segfault_society: fold (pot 36000)
+  [turn] token_titans: raise to 24000 (pot 60000)
+  [turn] r2_d2: raise to 42000 (pot 90000)
+  [turn] token_titans: fold (pot 90000)
+  Uncontested pot 90000 -> r2_d2
+  End stacks: calit=50000, nexora=50000, r2_d2=90000, rootbotz=50000, segfault_society=42000, teambinary=50000, token_titans=18000, volt_x=50000
+
+============================================================
+Hand 31
+============================================================
+Dealer: token_titans
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 2D 9S
+  nexora: stack 50000  hole 10D 7H
+  r2_d2: stack 50000  hole 4S 5S
+  rootbotz: stack 50000  hole KC 7S
+  segfault_society: stack 50000  hole 3D JS
+  teambinary: stack 50000  hole 7C QS
+  token_titans: stack 50000  hole 4D KD
+  volt_x: stack 50000  hole QC QD
+  [preflop] token_titans: check (pot 0)
+  ERROR (volt_x): illegal action raise to 1000
+  [preflop] volt_x: fold (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  flop: 2H 8S 6C
+  [flop] token_titans: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  turn: 2H 8S 6C 8H
+  [turn] token_titans: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  river: 2H 8S 6C 8H 10H
+  [river] token_titans: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  Showdown:
+    calit: 2D 9S
+    nexora: 10D 7H
+    r2_d2: 4S 5S
+    rootbotz: KC 7S
+    segfault_society: 3D JS
+    teambinary: 7C QS
+    token_titans: 4D KD
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 32
+============================================================
+Dealer: volt_x
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 3H KH
+  nexora: stack 50000  hole 3C 5S
+  r2_d2: stack 50000  hole 9H 9S
+  rootbotz: stack 50000  hole 6C 5D
+  segfault_society: stack 50000  hole 4C AC
+  teambinary: stack 50000  hole 8C KD
+  token_titans: stack 50000  hole 5H 10S
+  volt_x: stack 50000  hole QC 8H
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  flop: 10C 9C 3S
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: bet 1500 (pot 1500)
+  [flop] rootbotz: fold (pot 1500)
+  [flop] segfault_society: call (pot 3000)
+  [flop] teambinary: fold (pot 3000)
+  [flop] token_titans: raise to 6000 (pot 9000)
+  [flop] volt_x: fold (pot 9000)
+  [flop] calit: fold (pot 9000)
+  [flop] nexora: fold (pot 9000)
+  [flop] r2_d2: raise to 17250 (pot 24750)
+  [flop] segfault_society: fold (pot 24750)
+  [flop] token_titans: raise to 28500 (pot 47250)
+  [flop] r2_d2: raise to 50000 (pot 80000)
+  [flop] token_titans: call (pot 101500)
+  turn: 10C 9C 3S KC
+  river: 10C 9C 3S KC 4D
+  Showdown:
+    r2_d2: 9H 9S
+    token_titans: 5H 10S
+  Pot 4500 -> r2_d2
+  Pot 97000 -> r2_d2
+  End stacks: calit=50000, nexora=50000, r2_d2=101500, rootbotz=50000, segfault_society=48500, teambinary=50000, token_titans=0, volt_x=50000
+
+============================================================
+Hand 33
+============================================================
+Dealer: calit
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 10D 8S
+  nexora: stack 50000  hole KD AD
+  r2_d2: stack 50000  hole 10C 3S
+  rootbotz: stack 50000  hole 5C QD
+  segfault_society: stack 50000  hole KC AS
+  teambinary: stack 50000  hole 9D 4S
+  token_titans: stack 50000  hole 8H 7S
+  volt_x: stack 50000  hole 5H 9S
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  flop: JC 6D 3D
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  turn: JC 6D 3D 3C
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  river: JC 6D 3D 3C QH
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: bet 1500 (pot 1500)
+  [river] rootbotz: fold (pot 1500)
+  [river] segfault_society: fold (pot 1500)
+  [river] teambinary: fold (pot 1500)
+  [river] token_titans: fold (pot 1500)
+  [river] volt_x: fold (pot 1500)
+  [river] calit: fold (pot 1500)
+  [river] nexora: call (pot 3000)
+  Showdown:
+    nexora: KD AD
+    r2_d2: 10C 3S
+  Pot 3000 -> r2_d2
+  End stacks: calit=50000, nexora=48500, r2_d2=51500, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 34
+============================================================
+Dealer: nexora
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 5C KD
+  nexora: stack 50000  hole 3D 3S
+  r2_d2: stack 50000  hole 5D JH
+  rootbotz: stack 50000  hole 9D 9H
+  segfault_society: stack 50000  hole 8H JS
+  teambinary: stack 50000  hole 2C 6H
+  token_titans: stack 50000  hole 3H 10H
+  volt_x: stack 50000  hole 5S QS
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  flop: 10C JD 3C
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: bet 1750 (pot 1750)
+  [flop] volt_x: fold (pot 1750)
+  [flop] calit: fold (pot 1750)
+  [flop] nexora: call (pot 3500)
+  [flop] r2_d2: fold (pot 3500)
+  [flop] rootbotz: fold (pot 3500)
+  [flop] segfault_society: call (pot 5250)
+  [flop] teambinary: fold (pot 5250)
+  turn: 10C JD 3C 7D
+  [turn] nexora: bet 3019 (pot 8269)
+  [turn] segfault_society: call (pot 11288)
+  [turn] token_titans: raise to 9457 (pot 20745)
+  [turn] nexora: raise to 26307 (pot 44033)
+  [turn] segfault_society: call (pot 67321)
+  [turn] token_titans: raise to 43157 (pot 101021)
+  [turn] nexora: call (pot 117871)
+  [turn] segfault_society: fold (pot 117871)
+  river: 10C JD 3C 7D 6D
+  [river] nexora: bet 5093 (pot 122964)
+  [river] token_titans: call (pot 128057)
+  Showdown:
+    nexora: 3D 3S
+    token_titans: 3H 10H
+  Pot 84171 -> nexora
+  Pot 43886 -> nexora
+  End stacks: calit=50000, nexora=128057, r2_d2=50000, rootbotz=50000, segfault_society=21943, teambinary=50000, token_titans=0, volt_x=50000
+
+============================================================
+Hand 35
+============================================================
+Dealer: r2_d2
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 5D 7D
+  nexora: stack 50000  hole QC 5H
+  r2_d2: stack 50000  hole KD 3S
+  rootbotz: stack 50000  hole 6H 5S
+  segfault_society: stack 50000  hole 6C 8H
+  teambinary: stack 50000  hole JD QS
+  token_titans: stack 50000  hole QD 7H
+  volt_x: stack 50000  hole QH KH
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  ERROR (volt_x): illegal action raise to 1000
+  [preflop] volt_x: fold (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  flop: JC 2S AD
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  turn: JC 2S AD 6S
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  river: JC 2S AD 6S 5C
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  Showdown:
+    calit: 5D 7D
+    nexora: QC 5H
+    r2_d2: KD 3S
+    rootbotz: 6H 5S
+    segfault_society: 6C 8H
+    teambinary: JD QS
+    token_titans: QD 7H
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 36
+============================================================
+Dealer: rootbotz
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 3H 5H
+  nexora: stack 50000  hole 10C JD
+  r2_d2: stack 50000  hole AH KS
+  rootbotz: stack 50000  hole 9D 4S
+  segfault_society: stack 50000  hole 3D 4D
+  teambinary: stack 50000  hole 2H QH
+  token_titans: stack 50000  hole 6D 4H
+  volt_x: stack 50000  hole 2D 7H
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  flop: KH 3C 8H
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  turn: KH 3C 8H 9H
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  river: KH 3C 8H 9H 10S
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: bet 5000 (pot 5000)
+  [river] nexora: fold (pot 5000)
+  [river] r2_d2: fold (pot 5000)
+  [river] rootbotz: fold (pot 5000)
+  [river] segfault_society: fold (pot 5000)
+  [river] teambinary: raise to 10000 (pot 15000)
+  [river] token_titans: fold (pot 15000)
+  [river] volt_x: fold (pot 15000)
+  [river] calit: raise to 15000 (pot 25000)
+  [river] teambinary: raise to 20000 (pot 35000)
+  [river] calit: raise to 25000 (pot 45000)
+  [river] teambinary: raise to 30000 (pot 55000)
+  [river] calit: raise to 35000 (pot 65000)
+  ERROR (teambinary): illegal action raise to 20000
+  [river] teambinary: fold (pot 65000)
+  Uncontested pot 65000 -> calit
+  End stacks: calit=80000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=20000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 37
+============================================================
+Dealer: segfault_society
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 2C 9H
+  nexora: stack 50000  hole 6D 8H
+  r2_d2: stack 50000  hole 9C 9D
+  rootbotz: stack 50000  hole QC 7S
+  segfault_society: stack 50000  hole 8C 10D
+  teambinary: stack 50000  hole JC QD
+  token_titans: stack 50000  hole 5D 7H
+  volt_x: stack 50000  hole QH 4S
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  flop: 3C 3S JD
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  turn: 3C 3S JD KD
+  [turn] segfault_society: check (pot 0)
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  river: 3C 3S JD KD 6S
+  [river] segfault_society: check (pot 0)
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  Showdown:
+    calit: 2C 9H
+    nexora: 6D 8H
+    r2_d2: 9C 9D
+    rootbotz: QC 7S
+    segfault_society: 8C 10D
+    teambinary: JC QD
+    token_titans: 5D 7H
+    volt_x: QH 4S
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 38
+============================================================
+Dealer: teambinary
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 4C 9S
+  nexora: stack 50000  hole 7D QS
+  r2_d2: stack 50000  hole 5D 2H
+  rootbotz: stack 50000  hole 10C 3S
+  segfault_society: stack 50000  hole 3C QD
+  teambinary: stack 50000  hole 9C 8D
+  token_titans: stack 50000  hole JH QH
+  volt_x: stack 50000  hole 5C 7S
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  flop: AD 6H 5H
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  turn: AD 6H 5H JC
+  [turn] teambinary: check (pot 0)
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: check (pot 0)
+  [turn] segfault_society: check (pot 0)
+  river: AD 6H 5H JC 9D
+  [river] teambinary: check (pot 0)
+  [river] token_titans: check (pot 0)
+  [river] volt_x: check (pot 0)
+  [river] calit: check (pot 0)
+  [river] nexora: check (pot 0)
+  [river] r2_d2: check (pot 0)
+  [river] rootbotz: check (pot 0)
+  [river] segfault_society: check (pot 0)
+  Showdown:
+    calit: 4C 9S
+    nexora: 7D QS
+    r2_d2: 5D 2H
+    rootbotz: 10C 3S
+    segfault_society: 3C QD
+    teambinary: 9C 8D
+    token_titans: JH QH
+    volt_x: 5C 7S
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 39
+============================================================
+Dealer: token_titans
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole KD 2H
+  nexora: stack 50000  hole 4H 8H
+  r2_d2: stack 50000  hole KH 4S
+  rootbotz: stack 50000  hole AD 5S
+  segfault_society: stack 50000  hole 7D 2S
+  teambinary: stack 50000  hole QC 7S
+  token_titans: stack 50000  hole JC 8S
+  volt_x: stack 50000  hole 10H QS
+  [preflop] token_titans: check (pot 0)
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  flop: 3H 7C 6D
+  [flop] token_titans: check (pot 0)
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  turn: 3H 7C 6D 5H
+  [turn] token_titans: check (pot 0)
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: bet 1517 (pot 1517)
+  [turn] r2_d2: fold (pot 1517)
+  [turn] rootbotz: fold (pot 1517)
+  [turn] segfault_society: fold (pot 1517)
+  [turn] teambinary: fold (pot 1517)
+  [turn] token_titans: fold (pot 1517)
+  [turn] volt_x: fold (pot 1517)
+  [turn] calit: fold (pot 1517)
+  Uncontested pot 1517 -> nexora
+  End stacks: calit=50000, nexora=50000, r2_d2=50000, rootbotz=50000, segfault_society=50000, teambinary=50000, token_titans=50000, volt_x=50000
+
+============================================================
+Hand 40
+============================================================
+Dealer: volt_x
+Seats: calit, nexora, r2_d2, rootbotz, segfault_society, teambinary, token_titans, volt_x
+  calit: stack 50000  hole 9H AS
+  nexora: stack 50000  hole 7C 9C
+  r2_d2: stack 50000  hole AD 3S
+  rootbotz: stack 50000  hole 5C 4S
+  segfault_society: stack 50000  hole 7D 5H
+  teambinary: stack 50000  hole 3D 7H
+  token_titans: stack 50000  hole KC 6D
+  volt_x: stack 50000  hole AC 4H
+  [preflop] volt_x: check (pot 0)
+  [preflop] calit: check (pot 0)
+  [preflop] nexora: check (pot 0)
+  [preflop] r2_d2: check (pot 0)
+  [preflop] rootbotz: check (pot 0)
+  [preflop] segfault_society: check (pot 0)
+  [preflop] teambinary: check (pot 0)
+  [preflop] token_titans: check (pot 0)
+  flop: 3C JC 7S
+  [flop] volt_x: check (pot 0)
+  [flop] calit: check (pot 0)
+  [flop] nexora: check (pot 0)
+  [flop] r2_d2: check (pot 0)
+  [flop] rootbotz: check (pot 0)
+  [flop] segfault_society: check (pot 0)
+  [flop] teambinary: check (pot 0)
+  [flop] token_titans: check (pot 0)
+  turn: 3C JC 7S 6H
+  [turn] volt_x: check (pot 0)
+  [turn] calit: check (pot 0)
+  [turn] nexora: check (pot 0)
+  [turn] r2_d2: check (pot 0)
+  [turn] rootbotz: bet 3188 (pot 3188)
+  [turn] segfault_society: call (pot 6376)
+  [turn] teambinary: call (pot 9564)
+  [turn] token_titans: fold (pot 9564)
+  [turn] volt_x: fold (pot 9564)
+  [turn] calit: fold (pot 9564)
+  [turn] nexora: call (pot 12752)
+  [turn] r2_d2: fold (pot 12752)
+  river: 3C JC 7S 6H KH
+  [river] nexora: check (pot 12752)
+  [river] rootbotz: bet 17215 (pot 29967)
+  [river] segfault_society: fold (pot 29967)
+  [river] teambinary: raise to 34430 (pot 64397)
+  [river] nexora: call (pot 98827)
+  [river] rootbotz: call (pot 116042)
+  Showdown:
+    nexora: 7C 9C
+    rootbotz: 5C 4S
+    teambinary: 3D 7H
+  Pot 12752 -> rootbotz
+  Pot 103290 -> rootbotz
+  End stacks: calit=50000, nexora=12382, r2_d2=50000, rootbotz=128424, segfault_society=46812, teambinary=12382, token_titans=50000, volt_x=50000
